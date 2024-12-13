@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.welcome-heading {
+  color: skyblue;
+  font: 400;
+  line-height: 90px;
+  font-size: x-large;
+  font: bold;
+  align-content: center;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header {
+  display: flex;
+  gap:"90px";
+  font: bold;
+  line-height: 90px;
+  background-color: #444;
+  color: white;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h2{
+  align-self: center;
 }
